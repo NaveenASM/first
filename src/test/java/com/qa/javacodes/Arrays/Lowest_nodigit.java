@@ -10,11 +10,11 @@ public class Lowest_nodigit {
 	public static boolean finding_digit(int x, int d) {
 		
 		for(int i=0; i<=x; i++) {
-			if(i!=d) {
-				return true;
+			if(i==d) {
+				return false;
 			}
 		}
-		return false;
+		return true;
 		
 	}
 	

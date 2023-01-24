@@ -16,7 +16,7 @@ public class ArraySorting {
 		
 		for(int i=0; i<a.length; i++) {
 			
-			System.out.print(a[i] + " " + count);
+			System.out.println(a[i] + " " + count);
 			count = count -1;
 		}
 		
